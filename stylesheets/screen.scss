@@ -16,6 +16,22 @@ caption {
   font-size: 3em;
   padding: 1em;
   padding-bottom: 0.5em;
+  vertical-align: middle;
+
+  span:before, span:after {
+    content: '~';
+    color: #999;
+    font-size: 2em;
+    line-height: 0em;
+  }
+
+  span:before {
+    margin-right: 0.5em;
+  }
+
+  span:after {
+    margin-left: 0.5em;
+  }
 }
 
 table {
