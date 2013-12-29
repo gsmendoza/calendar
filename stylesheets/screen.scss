@@ -1,52 +1,43 @@
-/* Styling for the title (Month and Year) of the calendar */
-div.title {
-    font: x-large Verdana, Arial, Helvetica, sans-serif;
-    text-align: center;
-    height: 40px;
-    background-color: white;
-    color: black;
-    }
-/* Styling for the footer */
-div.footer {
-    font: small Verdana, Arial, Helvetica, sans-serif;
-    text-align: center;
-    }
-/* Styling for the overall table */
+html, body, div, p, span, table {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  width:100%;
+  height:100%;
+  min-height:100%;
+}
+
+caption {
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 3em;
+  padding: 1em;
+  padding-bottom: 0.5em;
+}
+
 table {
-    font: 100% Verdana, Arial, Helvetica, sans-serif;
-    table-layout: fixed;
-    border-collapse: collapse;
-    width: 100%;
-    }
-/* Styling for the column headers (days of the week) */
+  border: thin solid gray;
+  border-collapse: collapse;
+  height: 80%;
+  width: 100%;
+  table-layout: fixed;
+}
+
 th {
-    padding: 0 0.5em;
-    text-align: center;
-    background-color:gray;
-    color:white;
-    }
-/* Styling for the individual cells (days) */
-td  {
-    font-size: medium;
-    padding: 0.25em 0.25em;
-    width: 14%;
-    height: 80px;
-    text-align: left;
-    vertical-align: top;
-    }
-/* Styling for the date numbers */
-.date  {
-    font-size: xx-large;
-    padding: 0.25em 0.25em;
-    text-align: left;
-    vertical-align: top;
-    }
-/* Class for individual days (coming in future release) */
-.sun {
-     color:red;
-     }
-/* Hide the month element (coming in future release) */
-th.month {
-    visibility: hidden;
-    display:none;
-    }
+  background-color: #eee;
+  border: thin solid gray;
+  font-size: 2em;
+  height: 1px;
+  padding: 0.5em;
+  text-align: center;
+}
+
+td {
+  border: thin solid gray;
+  font-size: 3em;
+  text-align: center;
+  width: 14%;
+}
