@@ -10,24 +10,25 @@ html, body {
   min-height: 100%;
 }
 
-caption {
+.title {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-weight: bold;
   font-size: 3em;
   padding: 1em;
   padding-bottom: 0.5em;
+  text-align: center;
   vertical-align: middle;
 }
-caption span:before, caption span:after {
+.title span:before, .title span:after {
   content: '~';
   color: #999;
   font-size: 2em;
   line-height: 0em;
 }
-caption span:before {
+.title span:before {
   margin-right: 0.5em;
 }
-caption span:after {
+.title span:after {
   margin-left: 0.5em;
 }
 
